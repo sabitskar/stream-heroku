@@ -10,7 +10,7 @@ if y!=0:
   Out = x/y
   #st.write('Division of 2 given numbers is ', x /y)
 else:
-  Out = "Zero Division Error"
+  Out = "2nd Number must be Greater than 0"
   #st.write("Zero Division Error")
 st.write(Out)
 
