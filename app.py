@@ -8,7 +8,7 @@ x = st.number_input('1st number')
 y = st.number_input('2nd Number')
 if y!=0:
   #Out = x/y
-  st.write(f'Division of 2 given numbers is {.2f}', .format(x /y))
+  st.write(f'Division of 2 given numbers is {.2f}' .format(x /y))
 else:
   #Out = "2nd Number must be Greater than 0"
   st.write("Zero Division Error")
