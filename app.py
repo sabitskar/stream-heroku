@@ -7,7 +7,10 @@ st.header("User input parameter")
 x = st.number_input('1st number')
 y = st.number_input('2nd Number')
 if y!=0:
-  st.write('Division of 2 given numbers is ', x /y)
+  Out = x/y
+  #st.write('Division of 2 given numbers is ', x /y)
 else:
-  st.write("ZeroDivisionError")
+  Out = "Zero Division Error"
+  #st.write("Zero Division Error")
+st.write(Out)
 
